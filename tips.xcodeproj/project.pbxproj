@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F429FD961C24616F006DB93E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F429FD951C24616F006DB93E /* SettingsViewController.swift */; };
 		F465597A1C20F83200A9F18B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46559791C20F83200A9F18B /* AppDelegate.swift */; };
 		F465597C1C20F83200A9F18B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F465597B1C20F83200A9F18B /* ViewController.swift */; };
 		F465597F1C20F83200A9F18B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F465597D1C20F83200A9F18B /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F429FD951C24616F006DB93E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		F46559761C20F83200A9F18B /* tips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46559791C20F83200A9F18B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F465597B1C20F83200A9F18B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				F46559791C20F83200A9F18B /* AppDelegate.swift */,
 				F465597B1C20F83200A9F18B /* ViewController.swift */,
 				F465597D1C20F83200A9F18B /* Main.storyboard */,
+				F429FD951C24616F006DB93E /* SettingsViewController.swift */,
 				F46559801C20F83300A9F18B /* Assets.xcassets */,
 				F46559821C20F83300A9F18B /* LaunchScreen.storyboard */,
 				F46559851C20F83300A9F18B /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					F46559751C20F83200A9F18B = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 5496LC2783;
 					};
 					F46559891C20F83300A9F18B = {
 						CreatedOnToolsVersion = 7.1;
@@ -258,6 +262,7 @@
 			files = (
 				F465597C1C20F83200A9F18B /* ViewController.swift in Sources */,
 				F465597A1C20F83200A9F18B /* AppDelegate.swift in Sources */,
+				F429FD961C24616F006DB93E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,10 +402,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorliwang.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -408,10 +417,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = tips/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.victorliwang.tips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +495,7 @@
 				F46559A01C20F83300A9F18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F46559A11C20F83300A9F18B /* Build configuration list for PBXNativeTarget "tipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +504,7 @@
 				F46559A31C20F83300A9F18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F46559A41C20F83300A9F18B /* Build configuration list for PBXNativeTarget "tipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +513,7 @@
 				F46559A61C20F83300A9F18B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
