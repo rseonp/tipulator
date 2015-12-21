@@ -4,7 +4,7 @@
 
 Submitted by: **Victor Li Wang**
 
-Time spent: **2** hours spent in total
+Time spent: **2.5** hours spent in total
 
 ## User Stories
 
@@ -18,15 +18,11 @@ The following **optional** features are implemented:
 * [ ] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
-
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://imgur.com/gallery/hI2QNTK/new' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -34,12 +30,12 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 Challenges:
 
-• I wanted to put the application on my mother's phone, and she had just updated to 9.2, so I had to completely update XCode (which took forever) and then switch some keywords (eg: var -> let)'
+• I wanted to put the application on my mother's phone, and she had just updated to 9.2, so I had to completely update XCode (which took forever) and then switch some keywords (eg: var -> let)
 
 ## License
 
 Copyright [2015] [Victor Li Wang]
-t
+
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
