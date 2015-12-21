@@ -18,11 +18,12 @@ The following **optional** features are implemented:
 * [ ] Using locale-specific currency and currency thousands separators.
 * [x] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
+Other feature:
+* [x] App icon from (http://arctouch.com/wp-content/uploads/2009/08/Tip-Em-Icon.png)
+
 ## Video Walkthrough 
 
-Here's a walkthrough of implemented user stories:
-
-<img src='http://imgur.com/gallery/hI2QNTK/new' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Check out my demo!](http://imgur.com/gallery/hI2QNTK/new)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
